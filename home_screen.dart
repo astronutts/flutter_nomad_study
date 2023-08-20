@@ -49,7 +49,6 @@ class HomeScreen extends StatelessWidget {
                               itemBuilder: (context, index) {
                                 var movie3 = snapshot.data![index];
                                 return MovieWidget(
-                                  movie3: movie3,
                                   title: movie3.title,
                                   id: movie3.id,
                                   poster: movie3.poster,
@@ -104,7 +103,6 @@ class HomeScreen extends StatelessWidget {
                                 return Column(
                                   children: [
                                     MovieWidget(
-                                      movie3: movie3,
                                       title: movie3.title,
                                       id: movie3.id,
                                       poster: movie3.poster,
@@ -159,7 +157,6 @@ class HomeScreen extends StatelessWidget {
                               itemBuilder: (context, index) {
                                 var movie3 = snapshot.data![index];
                                 return MovieWidget(
-                                  movie3: movie3,
                                   title: movie3.title,
                                   id: movie3.id,
                                   poster: movie3.poster,
